@@ -3,5 +3,5 @@ import { info } from "./info.js"
 // console.log("Sample node app")
 
 const { bio } = info
+console.log(`Summary: ${bio}`)
 
-console.log(bio)
