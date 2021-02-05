@@ -1,18 +1,22 @@
 {
   "name": "sample-node",
   "version": "1.0.0",
-  "description": "My first Node.js app",
-  "main": "index.js",
+  "description": "My sample node app",
+  "main": "index.mjs",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "understanding",
-    "node"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edeced/sample-node-app.git"
+  },
   "author": "edeced",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edeced/sample-node-app/issues"
+  },
+  "homepage": "https://github.com/edeced/sample-node-app#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

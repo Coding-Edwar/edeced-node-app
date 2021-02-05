@@ -1,7 +1,8 @@
-import { info } from "./info.js"
-// console.log("Hello there")
-// console.log("Sample node app")
+import { info } from "./info.mjs";
 
-const { bio } = info
-console.log(`Summary: ${bio}`)
 
+const { description: { name: {fName} }, } = info;
+const { description: { bio: {profession} } } = info;
+const { description: { profiles: {github} } } = info;
+
+console.log(fName, profession, github)     
