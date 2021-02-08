@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My sample node app",
   "main": "index.mjs",
+  "bin": {
+    "edeced" : "./index.mjs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
