@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env node
 
 import { info } from "./info.mjs";
 
@@ -13,7 +13,7 @@ const { basic: { techStack: { programLang, frameworks, otherTools}}} = info;
 const {basic: {interest: {sports, art, relaxing}}} = info; 
 
 console.log(`
-Hello, thanks for viewing my npm app. My is ${fName}, ${lName}. 
+Hello, thanks for viewing my npm app. My name is ${fName}, ${lName}. 
 --------------------------------------------------- 
 
     ${summary}
