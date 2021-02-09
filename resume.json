@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "34d69ac2-2591-4f9d-a604-39aed40fcd88",
+		"name": "resume API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "my-first-api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333/edeced",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"edeced"
+					]
+				},
+				"description": "resume endpoint\n"
+			},
+			"response": []
+		}
+	]
+}
