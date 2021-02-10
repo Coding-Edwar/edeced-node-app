@@ -85,22 +85,6 @@ export const info = {
             ]
           }
         ],   
-        techStack: {
-            programmingLangauges: [
-            {
-            js: "Javascript",
-            jsFrameworks: "React.js, Vue.js, Alpine.js, SVELTE, Node.js"
-            },
-            { 
-            css: "CSS",
-            cssFrameworks: "Tailwindcss"
-            },
-            {
-            html: "HTML",
-            }
-        ],
-            otherTools: "yarn, npm, github, postman, fauna databeses, ngrok,", 
-    },
         languages: [
             {
             languageS: "Spanish",
@@ -113,12 +97,12 @@ export const info = {
         ],
         references: [
             {
-            ref1: "Joan Ortiz",
-            reference1: "https://twitter.com/ORTIZtheGREAT"
+            ref: "Joan Ortiz",
+            reference: "https://twitter.com/ORTIZtheGREAT"
             },
             {
-            ref: "Christopher Cruz",
-            reference: "linkedin.com/in/chris-cruz-917a643b"
+            ref2: "Christopher Cruz",
+            reference2: "https://linkedin.com/in/chris-cruz-917a643b"
             }
         ],
         interest: [
@@ -128,15 +112,15 @@ export const info = {
             },
             {
             title2: "Basketball",
-            keywords: "Recreational, Running, Ball, Dribble"
+            keywords2: "Recreational, Running, Ball, Dribble"
             },
             {
             title3: "Painting",
-            keywords: "Canvas, Paint, Art"
+            keywords3: "Canvas, Paint, Art"
             },
             {
             title4: "Music",
-            keywords: "Listening, Playing, Instrument"
+            keywords4: "Listening, Playing, Instrument"
             },
         ],
     },

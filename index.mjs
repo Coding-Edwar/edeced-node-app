@@ -2,6 +2,7 @@
 
 import { info } from "./info.mjs";
 
+
 const { basic: {bio: {fName,lName, email, summary } } } = info;
 
 const { basic: { profiles: [ { network, username, profileURL }, { network2, username2, profileURL2 }, {network3, username3, profileURL3 } ] } } = info;
@@ -10,13 +11,11 @@ const { basic: { work: [ { company, position, website, highlights: [ { project, 
 
 const { basic: { skills: [ { skill, exampleURL, tools }, { skill2, exampleURL2, tools2 } ] } } = info;
 
-const { basic: { techStack: { programmingLanguages: [ { js, jsFrameworks }, { css, cssFrameworks }, { html } ], } } } = info;
-
 const { basic: { languages: [ { languageS, fluency }, { languageE } ] } } = info;
 
-const { basic: { references: [ { ref1, reference1 }, { ref2, reference2 } ] } } = info;
+const { basic: { references: [ { ref, reference }, { ref2, reference2 } ] } } = info;
 
-const { basic: { interest: [ { title1 }, { title2 }, { title3 }, { title4 } ] } } = info;
+const { basic: { interest: [ { title, keywords }, { title2, keywords2 }, { title3, keywords3 }, { title4, keywords4 } ] } } = info;
 
 
 console.log(`
@@ -45,40 +44,25 @@ Visit my online profiles:
 
 console.log(`
 Jobs:
+    - Position: ${position}
+    - Company: ${company}
+    - Website: ${website}
+        Highligts: ${contribution} for ${project}
 
-- Position: ${position}
-- Company: ${company}
-- Website: ${website}
-    Highligts: ${contribution} for ${project}
+    - Position: ${position2}
+    - Company: ${company2}
+    - Website: ${website2}
+        Highligts: ${contribution2} for ${project2}
 
-- Position: ${position2}
-- Company: ${company2}
-- Website: ${website2}
-    Highligts: ${contribution2} for ${project2}
 
 Skills:
-- ${skill}
-    Tools:  ${tools}
-            ${exampleURL}
+    - ${skill}
+        Tools:      ${tools}
+        Reference:  ${exampleURL}
 
-- ${skill2}
-   Tools:   ${tools2}
-            ${exampleURL2}
-
-`);
-
-console.log(`
-
--------------------------------------------------------------
-| Programming Languages & Frameworks                        |
--------------------------------------------------------------
-* ${js} | ${jsFrameworks}                                   |
--------------------------------------------------------------
-* ${css} | ${cssFrameworks}                                 |
--------------------------------------------------------------
-* ${html} |                                                 |
--------------------------------------------------------------
-* ${otherTools}
+    - ${skill2}
+        Tools:      ${tools2}
+        Reference:  ${exampleURL2}
 `);
 
 console.log(`
@@ -89,14 +73,18 @@ Bilingual speaker
 
 console.log(`
 References:
-* ${ref1} - ${reference1}
-* ${ref2} - ${reference2}
+* ${ref}      -   ${reference}
+* ${ref2}   -   ${reference2}
 `);
 
 console.log(`
 Interests:
-* ${title1}
+* ${title}
+    - ${keywords}
 * ${title2}
+    -${keywords2}
 * ${title3}
+    -${keywords3}
 * ${title4}
+    -${keywords4}
 `);
