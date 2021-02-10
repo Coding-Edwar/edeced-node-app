@@ -3,7 +3,7 @@ import { info } from './info.mjs';
 import { home } from './home.mjs';
 
 
-const PORT = 5000;
+const PORT = process.env || 5000;
 const app = express();
 
 // route & callback
@@ -15,6 +15,6 @@ app.get ('/id', (req, res) => {
 });
 app.get('/edeced', (req, res) => res.send(info) );
 
-app.listen('5000', () => {
+app.listen(PORT, () => {
     console.log(`app starts now on ${PORT}`)
 });
