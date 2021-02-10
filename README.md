@@ -6,7 +6,7 @@ This package can be run in the command line with `npx edeced`. It will show my r
 
 `npx edeced`
 
-## Create your own requirements
+## Creating your own requires:
 [Node.js](https://nodejs.org/en/download/)  
 [npm](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)  
 
