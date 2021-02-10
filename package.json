@@ -1,6 +1,6 @@
 {
   "name": "edeced",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "My sample node app",
   "main": "index.mjs",
   "bin": {
