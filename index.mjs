@@ -82,9 +82,9 @@ Interests:
 * ${title}
     - ${keywords}
 * ${title2}
-    -${keywords2}
+    - ${keywords2}
 * ${title3}
-    -${keywords3}
+    - ${keywords3}
 * ${title4}
-    -${keywords4}
+    - ${keywords4}
 `);
