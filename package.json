@@ -3,6 +3,7 @@
   "version": "1.5.0",
   "description": "My sample node app",
   "main": "index.mjs",
+  "type": "module",
   "bin": {
     "edeced": "index.mjs"
   },
