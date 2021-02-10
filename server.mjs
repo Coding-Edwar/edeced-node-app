@@ -3,7 +3,7 @@ import { info } from './info.mjs';
 import { home } from './home.mjs';
 
 
-const PORT = process.env || 5000;
+const PORT = 5000;
 const app = express();
 
 // route & callback
